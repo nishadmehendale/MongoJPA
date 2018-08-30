@@ -358,3 +358,12 @@
 2018-08-29 12:56:24.865  INFO 6064 --- [http-nio-8080-exec-9] c.c.M.c.Controller                       : Viewing All Customers
 2018-08-29 12:56:24.865  INFO 6064 --- [http-nio-8080-exec-9] c.c.M.s.ServiceImpl                      : Viewing All Customers in Service
 2018-08-29 15:19:34.354  WARN 6064 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s486ms907µs200ns).
+2018-08-29 17:48:54.424  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-08-29 17:48:56.414  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11fc564b: startup date [Wed Aug 29 12:21:05 GMT+05:30 2018]; root of context hierarchy
+2018-08-29 17:49:10.424  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-08-29 17:49:10.853  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-08-29 17:49:11.517  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-29 17:49:12.748  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-29 17:49:16.884  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-08-29 17:49:17.809  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-08-29 17:49:18.985  INFO 6064 --- [RMI TCP Connection(332)-127.0.0.1] o.m.d.connection                         : Closed connection [connectionId{localValue:2, serverValue:16}] to localhost:27017 because the pool has been closed.
